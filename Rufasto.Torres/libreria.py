@@ -25,5 +25,11 @@ def validar_nombre(strNombre):
         return False        # No es str
 #fin_validar_nombre
 
-
+#Ejercicio03
+def validar_entero(intNum):
+    if ( isinstance(intNum, int)):
+        return True
+    else:
+        return False
+#fin_validar_numero
 
