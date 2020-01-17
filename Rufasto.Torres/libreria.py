@@ -33,3 +33,9 @@ def validar_entero(intNum):
         return False
 #fin_validar_numero
 
+#Ejercicio04
+def validar_real(fltNum):
+    if ( isinstance(fltNum, float)):
+        return True
+    else:
+        return False
