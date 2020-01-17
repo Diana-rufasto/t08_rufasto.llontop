@@ -48,3 +48,12 @@ assert (libreria.validar_obrero ("Ana") == False)
 assert (libreria.validar_obrero ("Eli") == False)
 assert (libreria.validar_obrero ("Alex") == False)
 print("validar_obrero OK")
+
+assert (libreria.validar_codigo ("") == False)
+assert (libreria.validar_codigo ("1234") == False)
+assert (libreria.validar_codigo ("#125134") == False)
+assert (libreria.validar_codigo ("#151F") == True)
+assert (libreria.validar_codigo ("#123R") == True)
+print ("validar_codigo OK")
+
+

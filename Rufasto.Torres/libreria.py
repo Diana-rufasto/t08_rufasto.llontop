@@ -81,3 +81,13 @@ def validar_obrero(strObrero):
         return False        # No es str
 #fin_validar_obrero
 
+#Ejercicio08
+def validar_codigo (strCodigo):
+    #1. strCodigo es una cadena de 5 caracteres
+    #2. El primer caracter de strCodigo es el signo #
+    if (len(strCodigo) != 5):
+        return False
+    if (strCodigo[0] == "#"):
+        return True
+    #fin_if
+#fin_validar_codigo
