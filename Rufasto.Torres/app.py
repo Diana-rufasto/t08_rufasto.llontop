@@ -10,3 +10,6 @@ descuento=(libreria*prestamo)
 
 # OUTPUT
 libreria.reporte_prestamo(nombre,prestamo,descuento)
+
+#INPUT
+nombre=libreria.pedir_nombre("Ingrese nombre:")
