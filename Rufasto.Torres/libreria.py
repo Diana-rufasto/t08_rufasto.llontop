@@ -39,3 +39,19 @@ def validar_real(fltNum):
         return True
     else:
         return False
+
+#Ejercicio05
+def calificacion(fltProm):
+    if ( fltProm == 20.0):
+        return "Excelente"
+    if ( fltProm == 16.0):
+        return "Muy Bien "
+    if ( fltProm == 12.0):
+        return "Regular"
+    if ( fltProm == 5.0):
+        return "Bajo"
+    if ( fltProm == 0.0):
+        return "Muy Bajo"
+    else:
+        return ""
+#fin_calificacion
