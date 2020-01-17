@@ -55,3 +55,15 @@ def calificacion(fltProm):
     else:
         return ""
 #fin_calificacion
+
+#Ejercicio06
+def obtenerBonus(strPuntaje):
+    if ( strPuntaje == "Excelente"):
+        return 300.0
+    if ( strPuntaje=="Muy Bien"):
+        return 200.0
+    if ( strPuntaje == "Regular"):
+        return 100.0
+    else:
+        return 0.0
+#fin_obtenerBonus
