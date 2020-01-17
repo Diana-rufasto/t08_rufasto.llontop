@@ -67,3 +67,17 @@ def obtenerBonus(strPuntaje):
     else:
         return 0.0
 #fin_obtenerBonus
+
+#Ejercicio07
+def validar_obrero(strObrero):
+    #1. El tipo de dato de strObrero es str
+    #2. La longitud de la cadena es al menos de 5
+    if ( isinstance(strObrero, str) ):
+        if ( len(strObrero) >= 5):
+            return True     # Es un nombre valido
+        else:
+            return False    # Insuficients caracteres
+    else:
+        return False        # No es str
+#fin_validar_obrero
+
