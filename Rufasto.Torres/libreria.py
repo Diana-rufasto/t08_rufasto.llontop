@@ -133,7 +133,16 @@ def pasa_pedido(strPuntaje):
         return 0.0
 #fin_pasa_pedido
 
-
+#Ejercicio11
+# Funcion   : Verifica si intNum es un entero
+# Parametros: intNum => Numero entero
+# Retorna   : bool
+def ganancia(intNum):
+    if ( isinstance(intNum, int)):
+        return True
+    else:
+        return False
+#fin_ganancia
 
 
 
