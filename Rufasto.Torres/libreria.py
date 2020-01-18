@@ -182,3 +182,14 @@ def validar_contrasena (strContrasena):
         return True
     #fin_if
 #fin_validar_contrasena
+
+#Ejercicio15
+def es_valido (strNum):
+    #1. strNum puede ser un numero de 0-2 o letras de A-C
+    if (strNum == "0" or strNum =="1" or strNum =="2" or
+        strNum=="A" or strNum =="B" or strNum=="C"):
+        return True
+    else:
+        return False
+    #fin_if
+#fin_es_valido
