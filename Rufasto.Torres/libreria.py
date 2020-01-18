@@ -172,3 +172,13 @@ def validar_empleado(strEmpleado):
         return False        # No es str
 #fin_validar_empleado
 
+#Ejercicio14
+def validar_contrasena (strContrasena):
+    #1. strContrasena es una cadena de 5 caracteres
+    #2. El primer caracter de strContrasena es el signo #
+    if (len(strContrasena) != 5):
+        return False
+    if (strContrasena[0] == "#"):
+        return True
+    #fin_if
+#fin_validar_contrasena
