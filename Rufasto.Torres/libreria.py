@@ -159,5 +159,16 @@ def puntaje_minimo(fltPuntmin):
         return ""
 #fin_puntaje_minimo
 
-
+#Ejercicio13
+def validar_empleado(strEmpleado):
+    #1. El tipo de dato de strEmpleado es str
+    #2. La longitud de la cadena es al menos de 5
+    if ( isinstance(strEmpleado, str) ):
+        if ( len(strEmpleado) >= 6):
+            return True     # Es un nombre valido
+        else:
+            return False    # Insuficients caracteres
+    else:
+        return False        # No es str
+#fin_validar_empleado
 
