@@ -1,5 +1,7 @@
 #Ejercicio01
 def descuento(tipo,prestamo):
+     # Si el tipo de cliente es EXCLUSIVO
+    # Aqui se usa la funcion upper()
     if (tipo.upper()== "COMPULSIVO"):
         return 0.10 * prestamo
     else:
@@ -26,14 +28,20 @@ def validar_nombre(strNombre):
 #fin_validar_nombre
 
 #Ejercicio03
+# Funcion   : Verifica si intNum es un entero
+# Parametros: intNum => Numero entero
+# Retorna   : bool
 def validar_entero(intNum):
     if ( isinstance(intNum, int)):
         return True
     else:
         return False
-#fin_validar_numero
+#fin_validar_entero
 
 #Ejercicio04
+# Funcion   : Verifica si fltNum es un real
+# Parametros: fltNum => Numero real
+# Retorna   : bool
 def validar_real(fltNum):
     if ( isinstance(fltNum, float)):
         return True
@@ -41,6 +49,9 @@ def validar_real(fltNum):
         return False
 
 #Ejercicio05
+# Funcion   : Devuelve la calificacion del promedio
+# Parametros: flotProm ==
+# Retorna   : str
 def calificacion(fltProm):
     if ( fltProm == 20.0):
         return "Excelente"
@@ -57,6 +68,9 @@ def calificacion(fltProm):
 #fin_calificacion
 
 #Ejercicio06
+# Funcion   : Devuelve el bonus por puntaje
+# Parametros: strCalif == Puntaje
+# Retorna   : float
 def obtenerBonus(strPuntaje):
     if ( strPuntaje == "Excelente"):
         return 300.0
@@ -91,3 +105,23 @@ def validar_codigo (strCodigo):
         return True
     #fin_if
 #fin_validar_codigo
+
+#Ejercicio09
+def validar_anio(intAnio):
+    #1.El tipo de dato es intAnio es int
+    #2.La longitud del entero es al menos de 2050
+    if(isinstance(intAnio,int)):
+        if((intAnio) >= 2050):
+            return True   #Es anio valido
+        else:
+            return False
+    else:
+        return False   #No es int
+
+
+
+
+
+
+
+

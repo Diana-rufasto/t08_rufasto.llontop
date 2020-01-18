@@ -56,4 +56,9 @@ assert (libreria.validar_codigo ("#151F") == True)
 assert (libreria.validar_codigo ("#123R") == True)
 print ("validar_codigo OK")
 
-
+assert (libreria.validar_anio (1990) == False)
+assert (libreria.validar_anio (1998) == False)
+assert (libreria.validar_anio (2055) == True)
+assert (libreria.validar_anio (2067) == True)
+assert (libreria.validar_anio (2070) == True)
+print("validar_anio OK")
