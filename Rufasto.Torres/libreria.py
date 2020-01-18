@@ -144,7 +144,20 @@ def ganancia(intNum):
         return False
 #fin_ganancia
 
-
+#Ejercicio12
+# Funcion   : Devuelve el puntaje minimo
+# Parametros: floatPuntmin ==
+# Retorna   : str
+def puntaje_minimo(fltPuntmin):
+    if ( fltPuntmin == 220.0):
+        return "Alcanza puntaje, pase pedido"
+    if ( fltPuntmin == 180.0):
+        return "Muy bien, le falta poco "
+    if ( fltPuntmin == 100.0):
+        return "Sigue ofreciendo"
+    else:
+        return ""
+#fin_puntaje_minimo
 
 
 
