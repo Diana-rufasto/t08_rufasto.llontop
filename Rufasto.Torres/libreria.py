@@ -118,6 +118,20 @@ def validar_anio(intAnio):
     else:
         return False   #No es int
 
+#Ejercicio10
+# Funcion   : Devuelve la calificacion del puntaje
+# Parametros: StrPuntaje => Puntaje
+# Retorna   : float
+def pasa_pedido(strPuntaje):
+    if ( strPuntaje == "Excelente"):
+        return 100.0
+    if ( strPuntaje == "Bajo"):
+        return 50.0
+    if ( strPuntaje == "Muy bajo"):
+        return 20.0
+    else:
+        return 0.0
+#fin_pasa_pedido
 
 
 
